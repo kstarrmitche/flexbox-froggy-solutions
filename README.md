@@ -29,6 +29,10 @@ I'll also be leaving notes for myself in this file as well :)
     - column-reverse: Items are placed bottom to top.
 - `order` - Sometimes reversing the row or column order of a container is not enough. In these cases, we can apply the order property to individual items. By default, items have a value of 0, but we can use this property to also set it to a positive or negative integer value (-2, -1, 0, 1, 2).
 - `align-self` - This property accepts the same values as align-items and its value for the specific item.
+- `flex-wrap` 
+   - nowrap: Every item is fit to a single line.
+   - wrap: Items wrap around to additional lines.
+   - wrap-reverse: Items wrap around to additional lines in reverse.
 
 ### Tricky things!
 - Notice that when you set the flex-direction to a reversed row or column, the "flex" start and end are also reversed of the associated x or y axis. So for example, if you did `flex-direction: row-reverse`,  `justify-content: flex-end` would actually push the content to the left!(See level 10 for an example)
