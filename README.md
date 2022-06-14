@@ -35,9 +35,17 @@ I'll also be leaving notes for myself in this file as well :)
    - wrap-reverse: Items wrap around to additional lines in reverse.
 - `flex-flow` - combines `flex-direction` and `flex-wrap` as a shorthand. It accepts the value of the two properties separated by a space. 
     - example: `flex-flow: column wrap;`
+- `align-content` - sets how multiple lines are spaced apart from each other. This property takes the following values:
+   - flex-start: Lines are packed at the top of the container.
+   - flex-end: Lines are packed at the bottom of the container.
+   - center: Lines are packed at the vertical center of the container.
+   - space-between: Lines display with equal spacing between them.
+   - space-around: Lines display with equal spacing around them.
+   - stretch: Lines are stretched to fit the container.
 
 ### Tricky things!
 - Notice that when you set the flex-direction to a reversed row or column, the "flex" start and end are also reversed of the associated x or y axis. So for example, if you did `flex-direction: row-reverse`,  `justify-content: flex-end` would actually push the content to the left!(See level 10 for an example)
+- `align-content` determines the spacing between lines, while `align-items` determines how the items as a whole are aligned within the container. When there is only one line, `align-content` has no effect.
 
 ### The differences between `space-around,` `space-evenly`, and `space-between`
 
