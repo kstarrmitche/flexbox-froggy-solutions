@@ -29,7 +29,7 @@ I'll also be leaving notes for myself in this file as well :)
     - column-reverse: Items are placed bottom to top.
 
 ### Tricky things!
-- Notice that when you set the flex-direction to a reversed row or column, the "flex" start and end are also reversed. (See level 10 for an example)
+- Notice that when you set the flex-direction to a reversed row or column, the "flex" start and end are also reversed of the associated x or y axis. So for example, if you did `flex-direction: row-reverse`,  `justify-content: flex-end` would actually push the content to the left!(See level 10 for an example)
 
 ### The differences between `space-around,` `space-evenly`, and `space-between`
 
