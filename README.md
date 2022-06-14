@@ -28,6 +28,9 @@ I'll also be leaving notes for myself in this file as well :)
     - column: Items are placed top to bottom.
     - column-reverse: Items are placed bottom to top.
 
+### Tricky things!
+- Notice that when you set the flex-direction to a reversed row or column, the "flex" start and end are also reversed. (See level 10 for an example)
+
 ### The differences between `space-around,` `space-evenly`, and `space-between`
 
 ```css
